@@ -1,3 +1,5 @@
+# Implement Transposition Cipher. (Vignere Cipher)
+
 def vigenere_cipher(plain_text, key):
     cipher_text = ""
     key = (key * (len(plain_text) // len(key) + 1))[:len(plain_text)]

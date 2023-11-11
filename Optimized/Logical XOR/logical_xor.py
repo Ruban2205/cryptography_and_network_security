@@ -1,3 +1,5 @@
+# Implement the logical XOR operation to prove its usage in cryptography
+
 import argparse
 
 parser = argparse.ArgumentParser()
