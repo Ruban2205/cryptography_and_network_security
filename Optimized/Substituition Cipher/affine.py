@@ -44,9 +44,6 @@ if __name__ == "__main__":
     print(f"Ciphertext: {ciphertext}")
     print(f"Decrypted plaintext: {affine_cipher_decrypt(ciphertext, a, b)}")
 
-
-
-
     # Optional - formatting
     decryptedtext = affine_cipher_decrypt(ciphertext, a, b)
     trans_table = str.maketrans(decryptedtext, plaintext)
