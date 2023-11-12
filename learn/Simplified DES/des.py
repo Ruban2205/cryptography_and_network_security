@@ -2,7 +2,7 @@
 
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad, unpad
-from Crypto.Random import get_random_bytes #pip install pycrypto
+from Crypto.Random import get_random_bytes # pip install pycryptodome
 
 def des_encrypt(plain_text, key):
     cipher = DES.new(key, DES.MODE_ECB)
@@ -13,7 +13,6 @@ def des_decrypt(cipher_text, key):
     cipher = DES.new(key, DES.MODE_ECB)
     plain_text = unpad(cipher.decrypt(cipher_text), DES.block_size)
     return plain_text
-
 
 
 key = get_random_bytes(8)  # DES key - 8 bytes
