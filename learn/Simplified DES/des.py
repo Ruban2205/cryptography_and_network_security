@@ -1,6 +1,8 @@
+# Implement the Digital Encryption Standardspip install pycrypto
+
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad, unpad
-from Crypto.Random import get_random_bytes
+from Crypto.Random import get_random_bytes #pip install pycrypto
 
 def des_encrypt(plain_text, key):
     cipher = DES.new(key, DES.MODE_ECB)

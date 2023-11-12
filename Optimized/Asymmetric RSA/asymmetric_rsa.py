@@ -2,7 +2,7 @@
 
 import random
 import math
-from sympy import mod_inverse, isprime
+from sympy import mod_inverse, isprime # pip install sympy
 
 def encrypt(message, e, n):
     return (message ** e) % n
