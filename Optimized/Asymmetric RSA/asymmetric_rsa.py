@@ -19,6 +19,7 @@ n = p * q
 z = (p - 1) * (q - 1)
 
 e = random.randint(2, z - 1)
+
 while not isprime(e):
     e = random.randint(2, z - 1)
 

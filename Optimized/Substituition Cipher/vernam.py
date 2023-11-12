@@ -1,3 +1,5 @@
+# Implement Substitution Cipher. (Vernam Cipher)
+
 def vernam_encrypt(plaintext, key):
     ciphertext = ""
     for i in range(len(plaintext)):
