@@ -1,5 +1,10 @@
 # Cryptography and Network Security
 
+Welcome to the Cryptography and Network Security repository! This project focuses on providing resources and implementations related to the fascinating fields of cryptography and network security.
+
+## Overview
+
+his repository contains code samples, algorithms, and educational content covering various aspects of cryptography and network security.
 
 ## Contents 
 
